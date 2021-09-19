@@ -1,0 +1,210 @@
+body{
+    background-color: lightgrey;
+}
+.center_div{
+    background-color:grey;
+    background-image: url(budget3.webp);
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 50%;
+    /* filter: contrast(50%); */
+    opacity: .9;
+}
+input{
+    width: 93%;
+    height: 30px;
+    margin: 1px;
+    font-size: 25px;
+    text-align: end;
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+}
+.heading{
+    /* display: flex; */
+    height: 92px;
+    width: 100%;
+    background-color: #336699;
+    padding: 1px;
+    /* margin-left: 6%; */
+}
+h2{
+    color:white;
+}
+select{
+    padding: 5px;
+}
+button{
+    padding: 2px;
+    margin-bottom: 3%;
+    height: 50px;
+    width: 20%;
+    font-size: 25px;
+    background-color: #518428;
+    /* border-radius:10%; */
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+    margin: 3%;
+}
+h2{
+    text-align: left;
+    margin-left: 23%;
+}
+img{
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 60px;
+}
+h1{
+    margin-left: 5%;
+    font-size: 30px;
+}
+.div_1{
+    height: 40px;
+    margin: 3px;
+    background-color:lightgrey;
+    border: 2px solid black;
+    color: black;
+}
+table,th,td{
+    margin-top: 4%;
+    border: 1px solid black;
+    padding: 6px;
+    text-align: right;
+    width: 63%;
+    margin-bottom: 5%;
+}
+.tbl{
+    text-align: center;
+    width:50%;
+    background-color: gray;
+    border: 2px solid black;
+}
+.bill{
+    font-weight: 900;
+    text-align: left;
+    padding: 3px;
+    margin: 2px;
+}
+.cal{
+    height: 69px;
+    width: 60%;
+    margin-top: 1%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* margin-left: 2%; */
+    /* height: 34px; */
+    background-color: white;
+    color: black;
+}
+table{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:darkblue;
+}
+.small_div{
+    background-color: brown;
+    padding: 10px;
+    width: 55%;
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    border-bottom-left-radius: 1cm;
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+}
+.btn1{
+    background-color:darkorange;
+    color: white;
+}
+    /* /* border-bottom-left-radius: 20%;} */
+@media(max-width:736px){
+    .center_div{
+        background-color:grey;
+        background-image: url(budget3.webp);
+        background-repeat: no-repeat;
+    /* border: 2px solid black; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 98%;
+        
+    }
+    input{
+        font-size: 20px;
+    }
+    body{
+        background-color: lemonchiffon;
+    }
+    img{
+        height: 35px;
+        margin-right: 2%;
+    }
+    h1{
+        font-size: 22px;
+        margin-left: 11%;
+    }
+    h2{
+        text-align: left;
+        margin-left: 16%;
+        font-size: 20px;
+    }
+    table,th,td{
+        margin-top: 4%;
+        border: 1px solid black;
+        padding: 6px;
+        text-align: right;
+        width: 70%;
+        margin-bottom: 5%;
+    }
+    .tbl{
+        text-align: center;
+        width:50%;
+        background-color: gray;
+        border: 2px solid black;
+    }
+    .bill{
+        font-weight: 900;
+        text-align: left;
+        padding: 3px;
+        margin: 2px;
+    }
+    .small_div{
+        background-color: brown;
+        padding: 10px;
+        width: 70%;
+        border-top-left-radius: 1cm;
+        border-top-right-radius: 1cm;
+        border-bottom-right-radius: 1cm;
+        border-bottom-left-radius: 1cm;
+    }
+    .cal{
+        margin-top: 4%;
+        height: 50px;
+        width: 90%;}
+    button{
+        padding: 2px;
+        margin-bottom: 3%;
+        height: 60px;
+        width: 45%;
+        font-size: 25px;
+        background-color: #518428;
+        /* border-radius:10%; */
+        border-top-left-radius: 1cm;
+        border-top-right-radius: 1cm;
+        border-bottom-right-radius: 1cm;
+        border-bottom-left-radius: 1cm;
+    }
+}

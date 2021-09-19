@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="body">
+        <center>
+            <div class="center_div">
+                <div class="heading">
+                    <div class="cal">
+                    <img src="download.png" alt="">
+                    <h1> Budget Calculator</h1>
+                    </div>
+                    <!-- <img src="nv.png"> -->
+                </div>
+                <!-- <input placeholder="Enter the Expense Type" type="text"> -->
+                <h2>Enter The Electricity Bill</h2>
+                <div class="small_div">
+                    <!-- <h2>Enter The Electricity Bill</h2> -->
+                    <input id="input" value="" type="text"></input>
+                </div>
+                <h2>Enter The Milk Bill</h2>
+                <div class="small_div">
+                    <input id="input1" value="" type="text"></input>
+                </div>
+                <h2>Enter The Grocery Bill</h2>
+                <div class="small_div">
+                    <input id="input2" value="" type="text"></input>
+                </div>
+                <h2>Enter The vegetables Bill</h2>
+                <div class="small_div">
+                    <input id="input3" value="" type="text"></input>
+                </div>
+                <h2>Enter The Facilties Bill</h2>
+                <div class="small_div">
+                    <input id="input4" value="" type="text"></input>
+                </div>
+                <h2>Enter The Culture Bill</h2>
+                <div class="small_div">
+                    <input id="input5" value="" type="text"></input>
+                </div>
+                <div>
+                    <table>
+                        <tr class="div_1">
+                            <td class="bill">Expenses Summary</td>
+                            <td class="bill">Monthly</td>
+                            <td class="bill">Yearly</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Electricity Bill</td>
+                            <td id="Month1">0</td>
+                            <td id="Year1">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Milk Bill</td>
+                            <td id="Month2">0</td>
+                            <td id="Year2">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Grocery Bill</td>
+                            <td id="Month3">0</td>
+                            <td id="Year3">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">vegetables Bill</td>
+                            <td id="Month4">0</td>
+                            <td id="Year4">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Facilities Bill</td>
+                            <td id="Month5">0</td>
+                            <td id="Year5">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Cultural Bill</td>
+                            <td id="Month6">0</td>
+                            <td id="Year6">0</td>
+                        </tr>
+                        <tr class="div_1">
+                            <td class="bill">Total Expenses</td>
+                            <td id="Month7">0</td>
+                            <td id="Year7">0</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="btn" type="submit" onclick="Monthly()">Monthly</button>
+                <button type="submit" onclick="Yearly()">Yearly</button>
+                <button class="btn1" type="submit" onclick="Clear()">Clear</button>
+
+            </div>
+
+        </center>
+
+    </div>
+    <script src="Main.js"></script>
+</body>
+
+</html>
